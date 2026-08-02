@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200">
+  <defs>
+    <linearGradient id="basketGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c98a4b"/>
+      <stop offset="100%" stop-color="#8a5a2b"/>
+    </linearGradient>
+    <linearGradient id="boxGradA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7b3fe4"/>
+      <stop offset="100%" stop-color="#4b1e8f"/>
+    </linearGradient>
+    <linearGradient id="boxGradB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0b34d"/>
+      <stop offset="100%" stop-color="#b8862a"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="120" cy="182" rx="95" ry="10" fill="#000" opacity="0.08"/>
+  <path d="M40 110 L60 175 Q120 190 180 175 L200 110 Z" fill="url(#basketGrad)"/>
+  <path d="M40 110 Q120 130 200 110 L196 122 Q120 142 44 122 Z" fill="#6e4420"/>
+  <path d="M40 110 Q120 130 200 110" fill="none" stroke="#5c3818" stroke-width="3"/>
+  <g stroke="#5c3818" stroke-width="2" opacity="0.5">
+    <path d="M55 118 Q120 136 185 118" fill="none"/>
+    <path d="M50 132 Q120 150 190 132" fill="none"/>
+    <path d="M56 146 Q120 162 184 146" fill="none"/>
+    <path d="M62 160 Q120 174 178 160" fill="none"/>
+  </g>
+  <rect x="90" y="55" width="52" height="52" rx="4" fill="url(#boxGradA)"/>
+  <rect x="110" y="55" width="12" height="52" fill="#e0b34d"/>
+  <rect x="90" y="76" width="52" height="10" fill="#e0b34d"/>
+  <path d="M116 55 q-16 -18 -2 -26 q10 8 2 26 Z" fill="#e0b34d"/>
+  <path d="M116 55 q16 -18 2 -26 q-10 8 -2 26 Z" fill="#e0b34d"/>
+  <rect x="145" y="80" width="42" height="42" rx="4" fill="url(#boxGradB)"/>
+  <rect x="162" y="80" width="8" height="42" fill="#5b2e9e"/>
+  <rect x="145" y="97" width="42" height="8" fill="#5b2e9e"/>
+  <path d="M166 80 q-12 -14 -1 -20 q8 6 1 20 Z" fill="#7b3fe4"/>
+  <path d="M166 80 q12 -14 1 -20 q-8 6 -1 20 Z" fill="#7b3fe4"/>
+  <rect x="55" y="82" width="36" height="36" rx="4" fill="#8b1e3f"/>
+  <rect x="70" y="82" width="7" height="36" fill="#e0b34d"/>
+  <rect x="55" y="97" width="36" height="7" fill="#e0b34d"/>
+  <g fill="none" stroke="#e0b34d" stroke-width="2" opacity="0.6">
+    <circle cx="30" cy="45" r="3"/>
+    <circle cx="205" cy="55" r="2.5"/>
+    <circle cx="215" cy="90" r="2"/>
+  </g>
+</svg>
