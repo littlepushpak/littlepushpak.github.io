@@ -108,11 +108,11 @@ a { color: inherit; text-decoration: none; }
   align-items: center;
   gap: 12px;
 }
-.brand-logo { height: 48px; width: 48px; object-fit: contain; border-radius: 12px; }
+.brand-logo { height: 56px; width: 56px; object-fit: contain; border-radius: 12px; }
 .brand-fallback {
   display: none;
-  height: 48px;
-  width: 48px;
+  height: 56px;
+  width: 56px;
   border-radius: 12px;
   background: linear-gradient(135deg, var(--purple-light), var(--purple-deep));
   color: var(--gold);
